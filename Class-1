@@ -1,0 +1,31 @@
+// First class of C++...!
+
+#include <iostream>
+using namespace std ;
+ int main() 
+{
+    //How to display any message and output using cout....
+    cout<<"hii"<<endl; 
+    cout<<"myself sanjana "<<endl;
+    cout<<"i am from gwalior"<<endl;
+//-------------------------------------------------------------------------
+    //How to declare a variable, initializes a value and display the value of that variable
+    int a = 45;
+    cout<<"the value of  is "<<a<<"this is the value ";
+//-------------------------------------------------------------------------
+    // How to take input from user and display the value....
+    int a;
+    cout<<"enter the value : ";
+    cin>> a;
+    cout<<"the value of a is : "<<a;
+//-------------------------------------------------------------------------
+    // How to take input and display sum of two numbers...
+    int a,b;
+    cout<<"enter the value of a"<<endl;
+    cin>> a;
+    cout<<"enter the value of b"<<endl;
+    cin>> b;
+    cout<<"sum of a and b "<<a+b;
+//---------------------------------------------------------------------
+    return 0;    
+}
